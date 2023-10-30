@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      fontFamily: {
+        signature: ["Great Vibes"],
+      },
     },
   },
   plugins: [],
