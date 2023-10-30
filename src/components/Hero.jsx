@@ -24,13 +24,12 @@ const Hero = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            // className="mb-6 text-[36px] lg:text-[45px] font-secondary font-medium  leading-[1]"
             className={`${styles.heroSubText} mt-2 text-white-100`}
           >
-            <span className="text-white mr-4">I </span>
+            <span className="text-white mr-4">I develop </span>
             <TypeAnimation
               sequence={[
-                "develop 3D visuals",
+                "3D visuals",
                 2000,
                 "user interfaces",
                 2000,
@@ -44,8 +43,8 @@ const Hero = () => {
             />
           </motion.div>
         </div>
-        <ComputersCanvas />
       </div>
+      <ComputersCanvas />
     </section>
   );
 };
