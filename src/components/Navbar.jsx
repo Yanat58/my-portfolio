@@ -22,7 +22,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo2} alt="logo" className="w-10 h-10 object-contain " />
-          <p className="text-white sm:text-[28px] text-[20px] font-signature  tracking-wide cursor-pointer">
+          <p className="text-white sm:text-[28px] text-[20px] font-signature  tracking-[0.1rem] cursor-pointer">
             Tetiana
           </p>
         </Link>
