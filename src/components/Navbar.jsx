@@ -22,11 +22,11 @@ const Navbar = () => {
           }}
         >
           <img src={logo2} alt="logo" className="w-10 h-10 object-contain " />
-          <p className="text-white text-[28px] font-signature  tracking-wide cursor-pointer">
+          <p className="text-white sm:text-[28px] text-[20px] font-signature  tracking-wide cursor-pointer">
             Tetiana
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
